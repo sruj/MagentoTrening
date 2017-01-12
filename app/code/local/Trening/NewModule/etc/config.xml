@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <models>
+            <NewModule>
+                <class>Trening_NewModule_Model</class>
+            </NewModule>
+        </models>
+        <blocks>
+            <NewModule>
+                <class>Trening_NewModule_Block</class>
+            </NewModule>
+        </blocks>
+        <helpers>
+            <NewModule>
+                <class>Trening_NewModule_Helper</class>
+            </NewModule>
+        </helpers>
+    </global>
+</config>
