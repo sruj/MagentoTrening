@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+<global>
+
+    <models>
+        <catalog>
+            <rewrite>
+                <category>Trening_Catalog_Model_Category</category>
+            </rewrite>
+        </catalog>
+    </models>
+
+    <helpers>
+        <Catalog>
+            <class>Trening_Catalog_Helper</class>
+        </Catalog>
+    </helpers>
+
+</global>
+</config>
