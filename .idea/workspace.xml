@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e5c4c1d-d336-49f1-bfa2-0c17d3f1154d" name="Default" comment=" nic (po komendzie: git rm -r --cached var/)(bo ciagle mi pokazywał przy commitach pliki z var/cache, bo nie były w ignore gdy wrzucalem na master)">
+    <list default="true" id="7e5c4c1d-d336-49f1-bfa2-0c17d3f1154d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MagentoTrening20170111magento-1.9.3.1.iws" />
@@ -365,7 +365,7 @@
       <workItem from="1484236088215" duration="10257000" />
       <workItem from="1484276086481" duration="2266000" />
       <workItem from="1484317153713" duration="1869000" />
-      <workItem from="1484319139013" duration="996000" />
+      <workItem from="1484319139013" duration="1348000" />
     </task>
     <task id="LOCAL-00001" summary="nic">
       <created>1484183265491</created>
@@ -402,11 +402,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484319573770</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=" nic (po komendzie: git rm -r --cached var/)( i .idea)(bo ciagle mi pokazywał przy commitach pliki z var/cache, bo nie były w ignore gdy wrzucalem na master)">
+      <created>1484320206660</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1484320206660</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26447000" />
+    <option name="totallyTimeSpent" value="26799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1688" height="1030" extended-state="6" />
@@ -452,7 +459,8 @@
     <MESSAGE value="(TUTS+) listener.(nie udane, jakaś literówka bo wcześniej działało tj zapisywał w logach plik) (07. EVENTS AND OBSERVER PATTERN IN MAGENTO)" />
     <MESSAGE value="(TUTS+) listener. (07. EVENTS AND OBSERVER PATTERN IN MAGENTO)&#10;" />
     <MESSAGE value=" nic (po komendzie: git rm -r --cached var/)(bo ciagle mi pokazywał przy commitach pliki z var/cache, bo nie były w ignore gdy wrzucalem na master)" />
-    <option name="LAST_COMMIT_MESSAGE" value=" nic (po komendzie: git rm -r --cached var/)(bo ciagle mi pokazywał przy commitach pliki z var/cache, bo nie były w ignore gdy wrzucalem na master)" />
+    <MESSAGE value=" nic (po komendzie: git rm -r --cached var/)( i .idea)(bo ciagle mi pokazywał przy commitach pliki z var/cache, bo nie były w ignore gdy wrzucalem na master)" />
+    <option name="LAST_COMMIT_MESSAGE" value=" nic (po komendzie: git rm -r --cached var/)( i .idea)(bo ciagle mi pokazywał przy commitach pliki z var/cache, bo nie były w ignore gdy wrzucalem na master)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
