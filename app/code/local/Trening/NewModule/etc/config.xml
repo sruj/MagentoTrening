@@ -16,5 +16,17 @@
                 <class>Trening_NewModule_Helper</class>
             </NewModule>
         </helpers>
+
+        <events>
+            <customer_login>
+                <observers>
+                    <NewModule>
+                        <type>model</type>
+                        <class>NewModule/observer</class>
+                        <method>logCustomer</method>
+                    </NewModule>
+                </observers>
+            </customer_login>
+        </events>
     </global>
 </config>
