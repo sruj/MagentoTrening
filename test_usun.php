@@ -17,8 +17,6 @@ $product->sayHello();
 $cust = Mage::helper("NewModule/Customer");
 $cust->sayHello();
 
-$catal = Mage::getModel("Catalog/Category")->load(2);
+$catal = Mage::getModel("catalog/category")->load(2);
 var_dump($catal->getChildren());
 
-$cat = Mage::helper("Catalog/Customer");
-$cat->sayHello();

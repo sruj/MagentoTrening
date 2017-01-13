@@ -9,7 +9,7 @@
 class Trening_Catalog_Model_Category extends Mage_Catalog_Model_Category{
     public function getChildren()
     {
-        echo '111111111111111111111111111111111111';
+        return 'overwrite';
     }
 
 }
