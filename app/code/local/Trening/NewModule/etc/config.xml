@@ -29,4 +29,16 @@
             </customer_login>
         </events>
     </global>
+
+    <frontend>
+        <routers>
+            <trening_newmodule>
+                <use>standard</use> // standardowy router, (nie ważne, trzeba to wpisać)
+                <args>
+                    <module>Trening_NewModule</module>
+                    <frontName>trening</frontName> //pierwszy człon adresu url który ma prowadzić do tego modułu  localhost/trening/.../..
+                </args>
+            </trening_newmodule>
+        </routers>
+    </frontend>
 </config>
