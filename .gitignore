@@ -1,7 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
 .gitignore
-.idea
-media/
-var/
-errors/
+/.idea
+/.idea/workspace.xml
+/media/
+/var/
+/errors/
 
