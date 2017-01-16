@@ -39,6 +39,13 @@
                     <frontName>trening</frontName> //pierwszy człon adresu url który ma prowadzić do tego modułu  localhost/trening/.../..
                 </args>
             </trening_newmodule>
+            <catalog>
+                <args>
+                    <modules>
+                        <demo before="Mage_Catalog">Trening_NewModule</demo>
+                    </modules>
+                </args>
+            </catalog>
         </routers>
     </frontend>
 </config>
