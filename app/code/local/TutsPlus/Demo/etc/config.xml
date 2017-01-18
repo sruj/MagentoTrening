@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <models>
+            <demo>
+                <class>TutsPlus_Demo_Model</class>
+            </demo>
+        </models>
+        <blocks>
+            <demo>
+                <class>TutsPlus_Demo_Block</class>
+            </demo>
+        </blocks>
+        <helpers>
+            <demo>
+                <class>TutsPlus_Demo_Helper</class>
+            </demo>
+        </helpers>
+
+        <events>
+            <customer_login>
+                <observers>
+                    <demo>
+                        <type>model</type>
+                        <class>demo/observer</class>
+                        <method>logCustomer</method>
+                    </demo>
+                </observers>
+            </customer_login>
+        </events>
+    </global>
+
+    <frontend>
+        <routers>
+            <tutsplus_demo>
+                <use>standard</use>
+                <args>
+                    <module>TutsPlus_Demo</module>
+                    <frontName>demo</frontName> //pierwszy człon adresu url który ma prowadzić do tego modułu  localhost/trening/.../..
+                </args>
+            </tutsplus_demo>
+            <catalog> //nadpisanie kontrolera catalog/product
+                <args>
+                    <modules>
+                        <demo before="Mage_Catalog">TutsPlus_Demo</demo>
+                    </modules>
+                </args>
+            </catalog>
+        </routers>
+
+        <layout>
+            <updates>
+                <demo>
+                    <file>tutsplus.xml</file>
+                </demo>
+            </updates>
+        </layout>
+    </frontend>
+</config>
