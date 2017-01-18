@@ -1,6 +1,6 @@
 <layout>
     <trening_newmodule_index_sayhello>
-        <reference name="left">
+        <reference name="content">
                 <block type="newmodule/product" name="newmodule" template="trening/myproducts.phtml" />
         </reference>
     </trening_newmodule_index_sayhello>
