@@ -33,6 +33,7 @@ require_once 'Mage/Catalog/controllers/ProductController.php';
 
 /**
  * nadpisanie kontrolera
+ * w config.xml potrzebna nadpisanie znacznika <catalog>
 */
 class Trening_NewModule_ProductController extends Mage_Catalog_ProductController
 {
