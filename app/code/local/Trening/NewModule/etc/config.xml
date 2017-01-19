@@ -2,19 +2,19 @@
 <config>
     <global>
         <models>
-            <NewModule>
+            <newmodule>
                 <class>Trening_NewModule_Model</class>
-            </NewModule>
+            </newmodule>
         </models>
         <blocks>
-            <NewModule>
+            <newmodule>
                 <class>Trening_NewModule_Block</class>
-            </NewModule>
+            </newmodule>
         </blocks>
         <helpers>
-            <NewModule>
+            <newmodule>
                 <class>Trening_NewModule_Helper</class>
-            </NewModule>
+            </newmodule>
         </helpers>
 
         <events>

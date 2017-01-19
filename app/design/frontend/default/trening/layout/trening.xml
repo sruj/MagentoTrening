@@ -1,7 +1,7 @@
 <layout>
     <trening_newmodule_index_sayhello>
         <reference name="content">
-                <block type="newmodule/product" name="newmodule" template="trening/myproducts.phtml" />
+            <block type="newmodule/product" name="newmodule" template="trening/myproducts.phtml" />
         </reference>
     </trening_newmodule_index_sayhello>
 </layout>

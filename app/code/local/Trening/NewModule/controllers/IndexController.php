@@ -46,7 +46,9 @@ class Trening_NewModule_IndexController extends Mage_Core_Controller_Front_Actio
 
     public function sayHelloAction()
     {
+
         $this->loadLayout();
+        $pp=0;
         $this->renderLayout();
     }
 

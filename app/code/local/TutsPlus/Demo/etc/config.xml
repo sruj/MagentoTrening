@@ -36,10 +36,10 @@
                 <use>standard</use>
                 <args>
                     <module>TutsPlus_Demo</module>
-                    <frontName>demo</frontName> //pierwszy człon adresu url który ma prowadzić do tego modułu  localhost/trening/.../..
+                    <frontName>demo</frontName>
                 </args>
             </tutsplus_demo>
-            <catalog> //nadpisanie kontrolera catalog/product
+            <catalog>
                 <args>
                     <modules>
                         <demo before="Mage_Catalog">TutsPlus_Demo</demo>
