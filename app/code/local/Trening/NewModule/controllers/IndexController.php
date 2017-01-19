@@ -48,7 +48,6 @@ class Trening_NewModule_IndexController extends Mage_Core_Controller_Front_Actio
     {
 
         $this->loadLayout();
-        $pp=0;
         $this->renderLayout();
     }
 

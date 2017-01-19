@@ -1,4 +1,10 @@
-<h1>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
-<?php echo $this->getProducts(); ?>
+<h1>Products</h1>
+<ul>
+<?php
+$helper = Mage::helper('newmodule');
+$products=$this->getProducts();
 
-
+foreach ($products as $product){?>
+     <li><a href="<?php echo $product->getProductUrl()?>"><?php echo $product->getName()?></a> - <?php echo $helper->shortDigitsAfterDecimalPoint($product->getPrice()); ?>  </li>
+    <?php } ?>
+</ul>
