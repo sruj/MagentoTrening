@@ -5,10 +5,11 @@
 // $helper->shortDigitsAfterDecimalPoint
 class Trening_NewModule_Helper_Data extends Mage_Core_Helper_Abstract
 {
-    public function shortDigitsAfterDecimalPoint($number,$d=2)
+    public function shortDigitsAfterDecimalPoint($price,$d=2)
     {
-        if(!$number){return "unknown";}
-        return number_format($number,$d);
+        if(!$price){return "unknown";}
+
+        return number_format($price,$d);
     }
 
 }
